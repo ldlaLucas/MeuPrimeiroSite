@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  list-style-type: none;
+}
+
+body{
+
+  border: 2px solid red;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+}
+
+header{
+  /* border: 2px solid black; */
+  height: 600px;
+  font-style: italic;
+  display: flex ;
+  gap: 15px;
+  justify-content: center;
+  background-image: url(imagens/cabeçalho2.jpg);
+}
+
+main{
+  height: 400px;
+  background-image: url(imagens/food-and-drink-pizza-pizzas-tomato.jpg);
+}
+
+ul,h2,.pg{
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li{
+  border-radius: 10%;
+  background-color: aliceblue;
+  margin: 25px;
+  text-transform: capitalize;
+  /* border: 2px solid black; */
+}
+
+.card{
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+}
+
+footer{
+  border: 2px solid black;
+}
