@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 *{
   margin: 0;
   border: 0;
@@ -7,7 +9,6 @@
 }
 
 body{
-
   border: 2px solid red;
   background-color: white;
   font-family: "Inter", sans-serif;
@@ -15,17 +16,26 @@ body{
 
 header{
   /* border: 2px solid black; */
-  height: 600px;
+  color:#fff;
+  height: 200px;
   font-style: italic;
-  display: flex ;
-  gap: 15px;
+  display: flex;
+  gap: 20px;
   justify-content: center;
-  background-image: url(imagens/cabeçalho2.jpg);
+  align-items:center;
+  background-image: url(https://moinhoglobo.com.br/wp-content/uploads/2019/02/01-massa-pizza-1024x683.png);
+  background-size:cover;
 }
 
 main{
   height: 400px;
-  background-image: url(imagens/food-and-drink-pizza-pizzas-tomato.jpg);
+  background-image: url(https://images.vexels.com/content/157671/preview/whole-pizza-icon-046d9c.png);
+  background-size:150px
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 500;
 }
 
 ul,h2,.pg{
