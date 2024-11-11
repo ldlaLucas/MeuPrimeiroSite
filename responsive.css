@@ -1,11 +1,20 @@
 @media only screen and (max-width: 602px) {
-  body {
-    background-color: lightblue;
+  *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    list-style-type: none;
   }
-}
-
-@media only screen and (max-width: 160px) {
-  body {
-    background-color: rgb(230, 191, 173);
+  
+  header{
+    height: 200px;
+  }
+  ul,h2{
+    flex-wrap: wrap;
+  }
+  
+  footer{
+    flex-wrap: wrap;
   }
 }
