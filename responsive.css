@@ -1,0 +1,11 @@
+@media only screen and (max-width: 602px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 160px) {
+  body {
+    background-color: rgb(230, 191, 173);
+  }
+}

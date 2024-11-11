@@ -9,33 +9,45 @@
 }
 
 body{
-  border: 2px solid red;
-  background-color: white;
   font-family: "Inter", sans-serif;
 }
 
 header{
   /* border: 2px solid black; */
   color:#fff;
-  height: 200px;
+  height: 300px;
   font-style: italic;
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items:center;
-  background-image: url(https://moinhoglobo.com.br/wp-content/uploads/2019/02/01-massa-pizza-1024x683.png);
-  background-size:cover;
+  background-image: url(imagens/Sem\ título.png);
+  background-size:100%;
 }
 
 main{
+  background-image: url(imagens/copy1-space-italian-food-ingredients.jpg);
+  background-size:100%;
+}
+
+footer{
   height: 400px;
-  background-image: url(https://images.vexels.com/content/157671/preview/whole-pizza-icon-046d9c.png);
-  background-size:150px
+  background-color: #fff;
+  display: flex;
+  gap:20px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#imgFooter{
+  height:300px;
+  width: 300px;
 }
 
 .permanent-marker-regular {
   font-family: "Permanent Marker", cursive;
-  font-weight: 500;
+  font-size: 500%;
 }
 
 ul,h2,.pg{
@@ -63,6 +75,7 @@ li{
 
 }
 
-footer{
-  border: 2px solid black;
+.p2{
+  text-align: justify;
+  width: 400px;
 }
